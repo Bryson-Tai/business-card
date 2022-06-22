@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const MidContact = ({icon,title}) => {
+const MidContact = ({ src, title }) => {
   return (
-    <div>   
-        <img src={icon} alt={title + ' logo'}/>
-        <p>{title}</p>
+    <div>
+      <img src={src} alt={title + " logo"} />
+      <p>{title}</p>
     </div>
-  )
-}
+  );
+};
 
-export default MidContact
+export default MidContact;

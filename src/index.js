@@ -34,12 +34,11 @@ const contact = [
   },
 ];
 
-//console.log(Images);
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <div className="card">
-    <img src="/img/email.png" alt="prof"/>
+    <img src={Images.email} alt="prof" />
     <div className="card-body">
       <Image src={Images.profile} />
       <MidTitle className="title" />
@@ -47,8 +46,8 @@ root.render(
       <div>
         {contact.map((contact) => (
           <MidContact
-          key={contact.id}
-            src={contact.icon}     
+            key={contact.id}
+            src={contact.icon}
             alt={contact.title}
             title={contact.title}
           />
@@ -58,7 +57,7 @@ root.render(
       {desc.map((content) => (
         <MidDesc key={content.id} title={content.title} desc={content.desc} />
       ))}
-      
+
       <SocialIcon />
     </div>
   </div>

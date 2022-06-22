@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const MidTitle = () => {
   return (
@@ -7,7 +7,7 @@ const MidTitle = () => {
       <h5>Frontend Developer</h5>
       <p>laurasmith.website</p>
     </div>
-  )
-}
+  );
+};
 
-export default MidTitle
+export default MidTitle;
