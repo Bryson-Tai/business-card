@@ -1,13 +1,11 @@
-import React from 'react'
-
-const images = [
-    {email: './img/email.png'},
-    {facebook: './img/facebook.png'},
-    {instagram: './img/instagram.png'},
-    {linkedIn: './img/linkedin.png'},
-    {twitter: './img/twitter.png'},
-    {github: './img/github.png'},
-    {profile: './img/profile.png'}
-];
+const images = {
+  email: require("./img/email.png"),
+  facebook: require("./img/facebook.png"),
+  instagram: require("./img/instagram.png"),
+  linkedIn: require("./img/linkedin.png"),
+  twitter: require("./img/twitter.png"),
+  github: require("./img/github.png"),
+  profile: require("./img/profile.png"),
+};
 
 export default images;
