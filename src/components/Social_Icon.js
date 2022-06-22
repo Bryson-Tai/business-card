@@ -1,18 +1,16 @@
-import React from 'react'
-import Images from '../images'
-import fb from '../img/facebook.png'
+import React from "react";
+import Images from "../images";
 
-const SocialIcon = ({social}) => {
+const SocialIcon = ({ social }) => {
   return (
     <div>
-        <img src={Images[0].twitter} alt='twitter' className={social}/>
-        <img src={Images.facebook} alt='facebook' className={social}/>
-        <img src={Images.instagram} alt='instagram' className={social}/>    
-        <img src={Images.github} alt='github' className={social}/>
-        <img src={fb} alt='github' className={social}/>
+      <img src={Images.twitter} alt="twitter" className={social} />
+      <img src={Images.facebook} alt="facebook" className={social} />
+      <img src={Images.instagram} alt="instagram" className={social} />
+      <img src={Images.github} alt="github" className={social} />
+      <img src={Images.facebook} alt="github" className={social} />
     </div>
-  )
-  console.log(fb)
-}
+  );
+};
 
-export default SocialIcon
+export default SocialIcon;

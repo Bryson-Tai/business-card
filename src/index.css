@@ -11,7 +11,7 @@
 
 h3,
 p {
-   color: #fff; 
+  color: #fff;
 }
 
 .card {
@@ -21,17 +21,17 @@ p {
   position: absolute;
 }
 
-.card-body{
-    margin:0 auto;
-    margin-top: 44px;
-    width: 317px;
-    background-color: #1A1B21;
+.card-body {
+  margin: 0 auto;
+  margin-top: 44px;
+  width: 317px;
+  background-color: #1a1b21;
 }
 
-.profile{
-    width: 317px;
+.profile {
+  width: 317px;
 }
 
-.title img.title{
-    text-align: center;
+.title img.title {
+  text-align: center;
 }

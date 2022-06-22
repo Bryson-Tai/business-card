@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const MidDesc = ({title, desc}) => {
+const MidDesc = ({ title, desc }) => {
   return (
-        <div>
-            <h3>{title}</h3>
-            <p>{desc}</p>
-        </div>     
-  )
-}
+    <div>
+      <h3>{title}</h3>
+      <p>{desc}</p>
+    </div>
+  );
+};
 
-export default MidDesc
+export default MidDesc;
