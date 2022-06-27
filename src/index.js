@@ -33,13 +33,13 @@ const contact = [
     icon: Images.linkedIn,
   },
 ];
-
+console.log(Images.twitter);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div className="card">
     <div className="card-body">
       <Image src={Images.profile} />
-      <MidTitle className="title-box"/>
+      <MidTitle/>
 
       <div className="contact-box">
         {contact.map((contact) => (
@@ -53,11 +53,11 @@ root.render(
 
       <div>
         {desc.map((content) => (
-          <MidDesc className="desc-box" key={content.id} title={content.title} desc={content.desc} />
+          <MidDesc key={content.id} title={content.title} desc={content.desc} />
         ))}
       </div>
-
-      <SocialIcon className="socialIcon"/>
+      
+      <SocialIcon />
     </div>
   </div>
 );
